@@ -19,8 +19,8 @@
 	* [Right-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#right-rotate)
 	* [Left-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#left-rotate)
 
-5. [Insertion]
-6. [Deletion]
+5. [Insertion(TODO)]
+6. [Deletion(TODO)]
 
 [References](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#references)
 
