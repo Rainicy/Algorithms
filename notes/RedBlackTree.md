@@ -34,7 +34,7 @@ Here given some balanced search tree examples:
 	- 2-3 Tree
 	- 2-3-4 Tree
 	- B-Tree
-	- __Red-Black Trees__
+	- (Red-Black Trees)
 	- Skip List
 	- Treaps
 
