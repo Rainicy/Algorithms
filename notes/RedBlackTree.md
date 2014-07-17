@@ -16,6 +16,7 @@
 2. [Height of Red-Black Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-height-of-red-black-tree)
 3. [Operations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-operations)
 4. [Rotations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#4-rotations)
+
 	* [Right-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#right-rotate)
 	* [Left-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#left-rotate)
 
