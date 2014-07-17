@@ -20,7 +20,7 @@ A binary search tree is an empty tree or a tree meets the properties as followin
 
 ##### The Running Time 
 
-We know that each basic operations on a binary search tree runs in O(h), which h is the height of the tree. So we want to minimize the h. But how? We know the minimum of h should be lg(N), where N is the number of nodes in the tree. One way to meet O(lgN) time is the Randomly building the Binary Search Tree, which is descripted in [INTRODUCTION TO ALGORITHMS].
+We know that each basic operations on a binary search tree runs in O(h), which h is the height of the tree. So we want to minimize the h. But how? We know the minimum of h should be lg(N), where N is the number of nodes in the tree. One way to meet O(lgN) time is the Randomly building the Binary Search Tree, which is described in [INTRODUCTION TO ALGORITHMS].
 
 So when we initialize a binary tree in randomly, maybe we can meet O(lgN) for a while. But with the operations(like insertion or deleting) doing, we cannot guarantee the BST still be h as lgN. And the worst case running time may become O(N), which we don't want to see.
 
@@ -52,7 +52,7 @@ It's a Binary Search Tree data structure with extra color field for each node an
 	- 4. Every red node must have two black child nodes. (Every red node has black parent.)
 	- 5. Every path from a given node to any of its descendant leaves contains the same number of black nodes.
 
-By the above 5 properties, we can get a critical property of red-black trees: that ** *the path from the root to the furthest leaf is no more than twice as long as the path from the root to the nearest leaf.* ** The result is that the tree is roughly height-balanced. 
+By the above 5 properties, we can get a critical property of red-black trees: that **_the path from the root to the furthest leaf is no more than twice as long as the path from the root to the nearest leaf._** The result is that the tree is roughly height-balanced. 
 
 
 
