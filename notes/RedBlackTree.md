@@ -79,5 +79,5 @@ The following steps are the proof of that Red-Black Trees with N keys has height
 * __Step 5__: By the properties of RBT, we know that red node has black parent, so that there must be smaller than 1/2 nodes on any root-to-leaf path are red. When we did the Step 1, the disappeared red nodes must be smaller than 1/2 nodes. We can derivate that the height of RBT h must be 
 <img src="http://www.forkosh.com/mathtex.cgi? h \leq 2h^{'} ">
 * __Step 6__: Finally we get 
-<img src="http://www.forkosh.com/mathtex.cgi? h \leq 2h^{'} = 2\lg{N+1} = O(\lg{N}) "> (Combined Step 4&5)
+<img src="http://www.forkosh.com/mathtex.cgi? h \leq 2h^{'} = 2\lg{(N+1)} = O(\lg{N}) "> (Combined Step 4&5)
 
