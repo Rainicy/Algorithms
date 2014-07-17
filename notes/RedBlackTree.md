@@ -96,7 +96,7 @@ The queries include search, max, min, successor, predecessor etc. All of these o
 The updates contain insert and delete, which will lead the violation of the RBT properties. So after updating the nodes in the RBT, we may modify the tree to meet the RBT properties again. 
 
 About modifying the tree, we need know:
-	1. The basic Binary Search Tree operations, like root(), p(), left(), right() etc.
+	1. The basic Binary Search Tree operations, like root(), parent(), left(), right() etc.
 	2. Color changes, which is easy, change the node's color from one to another one. 
 	3. Restructuring of links via Rotations
 
@@ -108,7 +108,65 @@ There are two ways to rotate the tree: Left-Rotate & Right-Rotate. _(Shown as fo
 
 ![Tree_Rotation](../images/Tree_rotation.png)
 
-##### Left-Rotate
-
+_(When we describe nodes in the tree, all nodes are males.)_
 
 ##### Right-Rotate
+
+Right-Rotate is operated on the node(Q in the picture), who should meets the requirement:
+	1. He(Q) has left child(P).
+
+The goal of Right-Rotate, make the node himself(Q) become his left child's(P) right child. Let's see what happened to the links:
+	1. Q becomes P's right child. (Happend)
+	2. B cannot be P's right child anymore, replaced by Q.(B is independent now)
+	3. Q's left child(P) is gone. (We need someone coming to Q's left new child, which should be the independent one B.)
+
+Algorithm for Right-Rotate:
+
+```
+Right-Rotate(T, x):	// x stands for Q
+	1. y = x.left 		// find x(Q)'s left child y(Q)
+	2. x.left = y.right 	// before B becomes independent, joint the B to x(Q)'s left child.
+	3. if (y.right != null)	// if B is not null, set x(Q) as his parent.
+	4. 		y.right.parent = x
+	5. y.parent = x.parent 	// Set x(Q)'s parent to y(P)'s
+	6. if (x.parent == null) 	// If x(Q) is the root
+	7. 		T.root = y
+	8. else if (x == x.parent.left)	// if Q is the left child
+	9. 		x.parent.left = y
+	10. else 						// if Q is the right child
+	11. 	x.parent.right = y
+	12. y.right = x				// join x(Q) and y(P)
+	13. x.parent = y
+
+```
+
+
+##### Left-Rotate
+
+The similar with Right-Rotate, the Left-Rotate should be operated on the node(P), who meets:
+	1. He has right child(Q).
+	
+The goal of Left-Rotate is making the node himself(P) become his right child's(Q) left child. What happened?
+	1. P becomes Q's left child. (Happened)
+	2. B cannot be Q's left child anymore, replaced by P. (B is independent again now)
+	3. P's right child(Q) is gone. (We need the independent B becomes P's right new child.)
+
+Algorithm for Left-Rotate:
+
+```
+Left-Rotate(T, x):			// x stands for P in the picture.
+	1. y = x.right 			// find P's right child(Q) to y(Q)
+	2. x.right = y.left 	// before B becomes independent, let B be P's right child. 
+	3. if (y.left != null)	// Set B's parent to x(P), not y(Q) anymore
+	4. 		y.left.parent = x
+	5. y.parent = x.parent 	// Set x(P)'s parent to y(Q)
+	6. if (x.parent == null)	// if x(P) is the root, update the root
+	7. 		T.root = y
+	8. else if (x == x.parent.left) 	// if P is the left child
+	9. 		x.parent.left = y
+	10. else 						// if P is the right child
+	11. 	x.parent.right = y
+	12. y.left = x			// set x(P) as y(Q)'s left son
+	13. x.parent = y		// set x(P)'s parent as y
+```
+
