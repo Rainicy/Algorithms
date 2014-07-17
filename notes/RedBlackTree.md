@@ -123,19 +123,19 @@ The goal of Right-Rotate, make the node himself(Q) become his left child's(P) ri
 Algorithm for Right-Rotate:
 
 ```
-Right-Rotate(T, x):	// x stands for Q
-	1. y = x.left 		// find x(Q)'s left child y(Q)
-	2. x.left = y.right 	// before B becomes independent, joint the B to x(Q)'s left child.
-	3. if (y.right != null)	// if B is not null, set x(Q) as his parent.
+Right-Rotate(T, x):						// x stands for Q
+	1. y = x.left 						// find x(Q)'s left child y(Q)
+	2. x.left = y.right 				// before B becomes independent, joint the B to x(Q)'s left child.
+	3. if (y.right != null)				// if B is not null, set x(Q) as his parent.
 	4. 		y.right.parent = x
-	5. y.parent = x.parent 	// Set x(Q)'s parent to y(P)'s
-	6. if (x.parent == null) 	// If x(Q) is the root
+	5. y.parent = x.parent 				// Set x(Q)'s parent to y(P)'s
+	6. if (x.parent == null) 			// If x(Q) is the root
 	7. 		T.root = y
-	8. else if (x == x.parent.left)	// if Q is the left child
+	8. else if (x == x.parent.left)		// if Q is the left child
 	9. 		x.parent.left = y
-	10. else 						// if Q is the right child
+	10. else 							// if Q is the right child
 	11. 	x.parent.right = y
-	12. y.right = x				// join x(Q) and y(P)
+	12. y.right = x						// join x(Q) and y(P)
 	13. x.parent = y
 
 ```
