@@ -117,6 +117,7 @@ The queries include search, max, min, successor, predecessor etc. All of these o
 The updates contain insert and delete, which will lead the violation of the RBT properties. So after updating the nodes in the RBT, we may modify the tree to meet the RBT properties again. 
 
 About modifying the tree, we need know:
+
 	1. The basic Binary Search Tree operations, like root(), parent(), left(), right() etc.
 	2. Color changes, which is easy, change the node's color from one to another one. 
 	3. Restructuring of links via Rotations
@@ -134,6 +135,7 @@ _(When we describe nodes in the tree, all nodes are males.)_
 ##### Right-Rotate
 
 Right-Rotate is operated on the node(Q in the picture), who should meets the requirement:
+
 	1. He(Q) has left child(P).
 
 The goal of Right-Rotate, make the node himself(Q) become his left child's(P) right child. Let's see what happened to the links:
