@@ -3,6 +3,7 @@
 ## Contents
 
 [History](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#history)
+
 [Binary Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#binary-search-tree)
 
 1. [What's Binary Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-binary-search-tree)
