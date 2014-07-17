@@ -62,8 +62,9 @@ An example of Red-Black Trees is showing as following[from WikiPedia](http://en.
 
 By the definition of the RBT, does the height h meet the balanced search tree height of O(lgN) (h <= O(lgN))? 
 
-The following steps will be the proof of that Red-Black Trees with N keys has height h meets: The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$ is via through the Euler integral
+The following steps will be the proof of that Red-Black Trees with N keys has height h meets: 
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
 
 picture shows the proof of that Red-Black Trees with N keys has height h <= 2lg(N+1) = O(lgN).
 
