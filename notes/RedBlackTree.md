@@ -18,7 +18,7 @@ A binary search tree is an empty tree or a tree meets the properties as followin
 	- Each node can have up to two successor nodes.
 	- There must be no duplicate nodes.
 
-An example of a Binary Search Tree is shown as following[from WikiPedia](http://en.wikipedia.org/wiki/Binary_search_tree):
+An example of a Binary Search Tree is shown as following: from [WikiPedia](http://en.wikipedia.org/wiki/Binary_search_tree)
 
 ![Binary Search Tree Example](../images/Binary_search_tree_Example.png)
 
@@ -58,7 +58,7 @@ It's a Binary Search Tree data structure with extra color field for each node an
 
 By the above 5 properties, we can get a critical property of red-black trees: that **_the path from the root to the furthest leaf is no more than twice as long as the path from the root to the nearest leaf._** The result is that the tree is roughly height-balanced. 
 
-An example of Red-Black Trees is showing as following[from WikiPedia](http://en.wikipedia.org/wiki/Red%E2%80%93black_tree):
+An example of Red-Black Trees is showing as following: from [WikiPedia](http://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
 
 ![Red-Balck Trees Example](../images/Red-black_tree_example.png)
 
