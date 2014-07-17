@@ -45,7 +45,7 @@ An example of a Binary Search Tree is shown as following: from [WikiPedia](http:
 
 ##### 2. The Running Time 
 
-We know that each basic operation on a binary search tree runs in O(h), which h is the height of the tree. So we want to minimize the h. But how? We know the minimum of h should be lg(N), where N is the number of nodes in the tree. One way to meet O(lgN) time is the Randomly building the Binary Search Tree, which is described in the _Chapter 12.4 Randomly built binary tree_ in __[INTRODUCTION TO ALGORITHMS]__.
+We know that each basic operation on a binary search tree runs in O(h), which h is the height of the tree. So we want to minimize the h. But how? We know the minimum of h should be lg(N), where N is the number of nodes in the tree. One way to meet O(lgN) time is the Randomly building the Binary Search Tree, which is described in the _Chapter 12.4 Randomly built binary tree in [Introduction to Algorithms]_.
 
 So when we initialize a binary tree randomly, maybe we can meet O(lgN) for a while. But with the operations(like insertion or deleting) doing, we cannot guarantee the BST's height be O(lgN). And the worst case running time may become O(N), which we don't want to see. Then let's see another definition of tree, called balanced search tree as following.
 
