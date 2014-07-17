@@ -29,6 +29,7 @@ So when we initialize a binary tree in randomly, maybe we can meet O(lgN) for a 
 Balanced Search Tree is a search tree data structure, maintaining dynamic set of N elements using tree of height O(lgN).
 
 Here given some balanced search tree examples:
+
 	- AVL Tree
 	- 2-3 Tree
 	- 2-3-4 Tree
