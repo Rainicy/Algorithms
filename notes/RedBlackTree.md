@@ -168,6 +168,7 @@ Right-Rotate(T, x):						// x stands for Q
 ##### Left-Rotate
 
 The similar with Right-Rotate, the Left-Rotate should be operated on the node(P), who meets:
+
 	1. He has right child(Q).
 	
 The goal of Left-Rotate is making the node himself(P) become his right child's(Q) left child. What happened?
