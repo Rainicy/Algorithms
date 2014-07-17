@@ -19,7 +19,7 @@
 	* [Right-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#right-rotate)
 	* [Left-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#left-rotate)
 
-[References]()
+[References](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#references)
 
 ## History
 
@@ -196,5 +196,7 @@ Left-Rotate(T, x):						// x stands for P in the picture.
 ## References
 
 [Introduction to Algorithms](http://mitpress.mit.edu/books/introduction-algorithms)
+
 [红黑树(一)之 原理和算法详细介绍](http://www.cnblogs.com/skywang12345/p/3245399.html)
+
 [教你透彻了解红黑树](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md)
