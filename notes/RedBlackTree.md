@@ -6,20 +6,19 @@
 
 [Binary Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#binary-search-tree)
 
-	1. [What's Binary Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-binary-search-tree)
-	2. [The Running Time](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-the-running-time)
-	3. [Balanced Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-balanced-search-tree)
+1. [What's Binary Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-binary-search-tree)
+2. [The Running Time](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-the-running-time)
+3. [Balanced Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-balanced-search-tree)
 
 [Red-Black Trees](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#red-black-trees-1)
 
-	1. [What's Red-Balck Tree?](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-red-balck-tree)
-	2. [Height of Red-Black Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-height-of-red-black-tree)
-	3. [Operations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-operations)
-	4. [Rotations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#4-rotations)
+1. [What's Red-Balck Tree?](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-red-balck-tree)
+2. [Height of Red-Black Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-height-of-red-black-tree)
+3. [Operations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-operations)
+4. [Rotations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#4-rotations)
+	* [Right-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#right-rotate)
+	* [Left-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#left-rotate)
 
-		* [Right-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#right-rotate)
-		* [Left-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#left-rotate)
-		
 	5. [Insertion]
 	6. [Deletion]
 
