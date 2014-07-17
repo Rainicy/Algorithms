@@ -2,7 +2,7 @@
 
 ### History
 
-This note will talk about the traditional Red-Black Trees algorithms. This original data structure was invented in 1972 by [Rudolf Bayer](http://en.wikipedia.org/wiki/Rudolf_Bayer) and named "symmetric binary B-Tree", but acquired its modern name in a paper in 1978 by [Leonidas J. Guibas](http://en.wikipedia.org/wiki/Leonidas_J._Guibas) and [Robert Sedgewick](http://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist)) entitled "A Dichromatic Framework for Balanced Trees". ([refer from WikiPedia](http://en.wikipedia.org/wiki/Red%E2%80%93black_tree))
+This note will talk about the traditional Red-Black Trees algorithms. This original data structure was invented in 1972 by [Rudolf Bayer](http://en.wikipedia.org/wiki/Rudolf_Bayer) and named "symmetric binary B-Tree", but acquired its modern name in a paper in 1978 by [Leonidas J. Guibas](http://en.wikipedia.org/wiki/Leonidas_J._Guibas) and [Robert Sedgewick](http://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist)) entitled "A Dichromatic Framework for Balanced Trees". ([From WikiPedia](http://en.wikipedia.org/wiki/Red%E2%80%93black_tree))
 
 ### [Binary Search Tree](http://en.wikipedia.org/wiki/Binary_search_tree)
 
@@ -20,7 +20,7 @@ A binary search tree is an empty tree or a tree meets the properties as followin
 
 ##### 2. The Running Time 
 
-We know that each basic operations on a binary search tree runs in O(h), which h is the height of the tree. So we want to minimize the h. But how? We know the minimum of h should be lg(N), where N is the number of nodes in the tree. One way to meet O(lgN) time is the Randomly building the Binary Search Tree, which is described in [INTRODUCTION TO ALGORITHMS].
+We know that each basic operation on a binary search tree runs in O(h), which h is the height of the tree. So we want to minimize the h. But how? We know the minimum of h should be lg(N), where N is the number of nodes in the tree. One way to meet O(lgN) time is the Randomly building the Binary Search Tree, which is described in [INTRODUCTION TO ALGORITHMS].
 
 So when we initialize a binary tree in randomly, maybe we can meet O(lgN) for a while. But with the operations(like insertion or deleting) doing, we cannot guarantee the BST still be h as lgN. And the worst case running time may become O(N), which we don't want to see. Then let's see another definition of tree, called balanced search tree as following.
 
@@ -54,7 +54,7 @@ It's a Binary Search Tree data structure with extra color field for each node an
 
 By the above 5 properties, we can get a critical property of red-black trees: that **_the path from the root to the furthest leaf is no more than twice as long as the path from the root to the nearest leaf._** The result is that the tree is roughly height-balanced. 
 
-An example of Red-Black Trees is showing as following[from WikiPedia]:
+An example of Red-Black Trees is showing as following[from WikiPedia](http://en.wikipedia.org/wiki/Red%E2%80%93black_tree):
 
 ![Red-Balck Trees Example](../images/Red-black_tree_example.png)
 
@@ -62,7 +62,13 @@ An example of Red-Black Trees is showing as following[from WikiPedia]:
 
 By the definition of the RBT, does the height h meet the balanced search tree height of O(lgN) (h <= O(lgN))? 
 
-The following picture shows the proof of that Red-Black Trees with N keys has height h <= 2lg(N+1) = O(lgN).
+The following steps will be the proof of that Red-Black Trees with N keys has height h meets:
+
+$$
+h \leq 2 \lg (N+1) \eq \Omega (\lg N)
+$$
+
+picture shows the proof of that Red-Black Trees with N keys has height h <= 2lg(N+1) = O(lgN).
 
 ![](../images/Height_RBT_proof.png)
 
