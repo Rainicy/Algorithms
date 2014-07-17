@@ -23,7 +23,7 @@
 
 This note will talk about the traditional Red-Black Trees algorithms. This original data structure was invented in 1972 by [Rudolf Bayer](http://en.wikipedia.org/wiki/Rudolf_Bayer) and named "symmetric binary B-Tree", but acquired its modern name in a paper in 1978 by [Leonidas J. Guibas](http://en.wikipedia.org/wiki/Leonidas_J._Guibas) and [Robert Sedgewick](http://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist)) entitled "A Dichromatic Framework for Balanced Trees". ([From WikiPedia](http://en.wikipedia.org/wiki/Red%E2%80%93black_tree))
 
-### Binary Search Tree
+## Binary Search Tree
 
 Before talking about the Red-Black Trees(RBT), we need better know the Binary Search Tree(BST), because in fact the RBT is a BST. 
 
@@ -61,7 +61,7 @@ Here given some balanced search tree examples:
 	- Skip List
 	- Treaps
 
-### Red-Black Trees
+## Red-Black Trees
 
 Red-Black Trees is a balanced search tree, which can maintain dynamic set of N nodes using tree of height O(lgN). Before we prove this, let's see what's the definition of Red-Black Trees. 
 
