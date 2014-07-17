@@ -11,11 +11,12 @@ Before talking about the Red-Black Trees(RBT), we need better know the Binary Se
 ##### What's Binary Search Tree?
 
 A binary search tree is an empty tree or a tree meets the properties as following:
-	-	The left subtree of a node contains only nodes with keys less than the node's key.
-	-	The right subtree of a node contains only nodes with keys greater than the node's key.
-	-	The left and right subtree each must also be a binary search tree.
-	-	Each node can have up to two successor nodes.
-	-	There must be no duplicate nodes.
+
+- The left subtree of a node contains only nodes with keys less than the node's key.
+- The right subtree of a node contains only nodes with keys greater than the node's key.
+- The left and right subtree each must also be a binary search tree.
+- Each node can have up to two successor nodes.
+- There must be no duplicate nodes.
 
 ##### The Running Time 
 
