@@ -19,6 +19,8 @@
 	* [Right-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#right-rotate)
 	* [Left-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#left-rotate)
 
+[References]()
+
 ## History
 
 This note will talk about the traditional Red-Black Trees algorithms. This original data structure was invented in 1972 by [Rudolf Bayer](http://en.wikipedia.org/wiki/Rudolf_Bayer) and named "symmetric binary B-Tree", but acquired its modern name in a paper in 1978 by [Leonidas J. Guibas](http://en.wikipedia.org/wiki/Leonidas_J._Guibas) and [Robert Sedgewick](http://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist)) entitled "A Dichromatic Framework for Balanced Trees". ([From WikiPedia](http://en.wikipedia.org/wiki/Red%E2%80%93black_tree))
@@ -191,3 +193,8 @@ Left-Rotate(T, x):						// x stands for P in the picture.
 	13. x.parent = y					// set x(P)'s parent as y
 ```
 
+## References
+
+[Introduction to Algorithms](http://mitpress.mit.edu/books/introduction-algorithms)
+[红黑树(一)之 原理和算法详细介绍](http://www.cnblogs.com/skywang12345/p/3245399.html)
+[教你透彻了解红黑树](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md)
