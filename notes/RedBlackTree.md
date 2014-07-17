@@ -69,7 +69,7 @@ By the definition of the RBT, does the height h meet the balanced search tree he
 The following steps are the proof of that Red-Black Trees with N keys has height h: 
 <img src="http://www.forkosh.com/mathtex.cgi? h \leq 2 \lg (N+1) = O(\lg N) ">
 
-* Step 1: Merge each red node to its black parent, after this, it will become a 2-3-4 trees. (Shown in the following picture)
+* *Step 1*: Merge each red node to its black parent, after this, it will become a 2-3-4 trees. (Shown in the following picture)
 ![RBT_to_2_3_4](../images/RBT_to_2_3_4.png)
 * Step 2: Easy to get the number of leaves in the 2-3-4 trees is N+1.
 * Step 3: If we set  <img src="http://www.forkosh.com/mathtex.cgi? h^{'}"> be the height of a 2-3-4 trees, then easy to know the number of leaves(#leaves) should be:
