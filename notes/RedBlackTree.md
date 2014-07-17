@@ -5,19 +5,19 @@
 [History](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#history)
 
 [Binary Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#binary-search-tree)
-
-1. [What's Binary Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-binary-search-tree)
-2. [The Running Time](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-the-running-time)
-3. [Balanced Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-balanced-search-tree)
+	1. [What's Binary Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-binary-search-tree)
+	2. [The Running Time](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-the-running-time)
+	3. [Balanced Search Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-balanced-search-tree)
 
 [Red-Black Trees](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#red-black-trees-1)
-
-1. [What's Red-Balck Tree?](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-red-balck-tree)
-2. [Height of Red-Black Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-height-of-red-black-tree)
-3. [Operations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-operations)
-4. [Rotations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#4-rotations)
-	* [Right-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#right-rotate)
-	* [Left-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#left-rotate)
+	1. [What's Red-Balck Tree?](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#1-whats-red-balck-tree)
+	2. [Height of Red-Black Tree](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#2-height-of-red-black-tree)
+	3. [Operations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#3-operations)
+	4. [Rotations](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#4-rotations)
+		* [Right-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#right-rotate)
+		* [Left-Rotate](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#left-rotate)
+	5. [Insertion]
+	6. [Deletion]
 
 [References](https://github.com/Rainicy/Algorithms/blob/master/notes/RedBlackTree.md#references)
 
@@ -140,7 +140,7 @@ Right-Rotate is operated on the node(Q in the picture), who should meets the req
 
 The goal of Right-Rotate, make the node himself(Q) become his left child's(P) right child. Let's see what happened to the links:
 
-	1. Q becomes P's right child. (Happend)
+	1. Q becomes P's right child. (Happened)
 	2. B cannot be P's right child anymore, replaced by Q.(B is independent now)
 	3. Q's left child(P) is gone. (We need someone coming to Q's left new child, which should be the independent one B.)
 
