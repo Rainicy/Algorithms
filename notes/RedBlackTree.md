@@ -81,3 +81,34 @@ The following steps are the proof of that Red-Black Trees with N keys has height
 * __Step 6__: Finally we get 
 <img src="http://www.forkosh.com/mathtex.cgi? h \leq 2h^{'} = 2\lg{(N+1)} = O(\lg{N}) "> (Combined Step 4&5)
 
+Now we can see that the Red-Black Tree is a good balanced tree, which can always maintain O(lgN) height. Once we get the data structure, we want to do some operations on this data structure.
+
+#### 3. Operations
+
+There are two different kinds of operations, one will maintain the RBT properties and another one may lead the violation of the properties.
+
+__1. Queries__
+
+The queries include search, max, min, successor, predecessor etc. All of these operations just look up the node in the RBT, which won't break the tree structure. And all these queries can run in O(lgN) time in the Red-Black Tree.
+
+__2. Updates__
+
+The updates contain insert and delete, which will lead the violation of the RBT properties. So after updating the nodes in the RBT, we may modify the tree to meet the RBT properties again. 
+
+About modifying the tree, we need know:
+	1. The basic Binary Search Tree operations, like root(), p(), left(), right() etc.
+	2. Color changes, which is easy, change the node's color from one to another one. 
+	3. Restructuring of links via Rotations
+
+Here we won't give details about the BST operations and color changes. We just look at the algorithms on Rotations.
+
+#### 4. Rotations
+
+There are two ways to rotate the tree: Left-Rotate & Right-Rotate. _(Shown as following)_
+
+![Tree_Rotation](../images/Tree_rotation.png)
+
+##### Left-Rotate
+
+
+##### Right-Rotate
