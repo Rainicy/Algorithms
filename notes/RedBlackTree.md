@@ -75,6 +75,5 @@ The following steps are the proof of that Red-Black Trees with N keys has height
 * __Step 3__: If we set  <img src="http://www.forkosh.com/mathtex.cgi? h^{'}"> be the height of a 2-3-4 trees, then easy to know the number of leaves(|leaves|)should be:
 <img src="http://www.forkosh.com/mathtex.cgi? 2^{h^{'}} \leq  |leaves| \leq 4^{h^{'}}">
 * __Step 4__: Then we get
-<img src="http://www.forkosh.com/mathtex.cgi? 2^{h^{'}} \leq |leaves| = N+1"> 
-<img src="http://www.forkosh.com/mathtex.cgi? \n \Rightarrow h^{'} \leq \lg (N+1)">
+<img src="http://www.forkosh.com/mathtex.cgi? 2^{h^{'}} \leq |leaves| = N+1 \\ \Rightarrow h^{'} \leq \lg (N+1)">
 
