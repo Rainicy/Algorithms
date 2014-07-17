@@ -58,5 +58,11 @@ An example of Red-Black Trees is showing as following[from WikiPedia]:
 
 ![Red-Balck Trees Example](../images/Red-black_tree_example.png)
 
-#### 2. The 
+#### 2. Height of Red-Black Tree
+
+By the definition of the RBT, does the height h meet the balanced search tree height of O(lgN) (h <= O(lgN))? 
+
+The following picture shows the proof of that Red-Black Trees with N keys has height h <= 2lg(N+1) = O(lgN).
+
+![](../images/Height_RBT_proof.png)
 
