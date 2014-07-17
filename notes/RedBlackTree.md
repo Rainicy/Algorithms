@@ -42,7 +42,7 @@ Here given some balanced search tree examples:
 
 Red-Black Trees is a balanced search tree, which can maintain dynamic set of N nodes using tree of height O(lgN). Before we prove this, let's see what's the definition of Red-Black Trees. 
 
-##### What's Red-Balck Tree? 
+##### 1. What's Red-Balck Tree? 
 
 It's a Binary Search Tree data structure with extra color field for each node and the following must be satisfied by the RBT:
 
@@ -54,5 +54,9 @@ It's a Binary Search Tree data structure with extra color field for each node an
 
 By the above 5 properties, we can get a critical property of red-black trees: that **_the path from the root to the furthest leaf is no more than twice as long as the path from the root to the nearest leaf._** The result is that the tree is roughly height-balanced. 
 
+An example of Red-Black Trees is showing as following[from WikiPedia]:
 
+![Red-Balck Trees Example](../images/Red-black_tree_example.png)
+
+#### 2. The 
 
