@@ -154,19 +154,19 @@ The goal of Left-Rotate is making the node himself(P) become his right child's(Q
 Algorithm for Left-Rotate:
 
 ```
-Left-Rotate(T, x):			// x stands for P in the picture.
-	1. y = x.right 			// find P's right child(Q) to y(Q)
-	2. x.right = y.left 	// before B becomes independent, let B be P's right child. 
-	3. if (y.left != null)	// Set B's parent to x(P), not y(Q) anymore
+Left-Rotate(T, x):						// x stands for P in the picture.
+	1. y = x.right 						// find P's right child(Q) to y(Q)
+	2. x.right = y.left 				// before B becomes independent, let B be P's right child. 
+	3. if (y.left != null)				// Set B's parent to x(P), not y(Q) anymore
 	4. 		y.left.parent = x
-	5. y.parent = x.parent 	// Set x(P)'s parent to y(Q)
-	6. if (x.parent == null)	// if x(P) is the root, update the root
+	5. y.parent = x.parent 				// Set x(P)'s parent to y(Q)
+	6. if (x.parent == null)			// if x(P) is the root, update the root
 	7. 		T.root = y
 	8. else if (x == x.parent.left) 	// if P is the left child
 	9. 		x.parent.left = y
-	10. else 						// if P is the right child
+	10. else 							// if P is the right child
 	11. 	x.parent.right = y
-	12. y.left = x			// set x(P) as y(Q)'s left son
-	13. x.parent = y		// set x(P)'s parent as y
+	12. y.left = x						// set x(P) as y(Q)'s left son
+	13. x.parent = y					// set x(P)'s parent as y
 ```
 
