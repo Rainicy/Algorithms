@@ -104,7 +104,7 @@ Here we won't give details about the BST operations and color changes. We just l
 
 #### 4. Rotations
 
-There are two ways to rotate the tree: Left-Rotate & Right-Rotate. _(Shown as following)_
+There are two ways to rotate the tree: Left-Rotate & Right-Rotate. _(Shown as following from [WikiPedia](http://en.wikipedia.org/wiki/Tree_rotation))_
 
 ![Tree_Rotation](../images/Tree_rotation.png)
 
