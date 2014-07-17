@@ -116,6 +116,7 @@ Right-Rotate is operated on the node(Q in the picture), who should meets the req
 	1. He(Q) has left child(P).
 
 The goal of Right-Rotate, make the node himself(Q) become his left child's(P) right child. Let's see what happened to the links:
+
 	1. Q becomes P's right child. (Happend)
 	2. B cannot be P's right child anymore, replaced by Q.(B is independent now)
 	3. Q's left child(P) is gone. (We need someone coming to Q's left new child, which should be the independent one B.)
@@ -147,6 +148,7 @@ The similar with Right-Rotate, the Left-Rotate should be operated on the node(P)
 	1. He has right child(Q).
 	
 The goal of Left-Rotate is making the node himself(P) become his right child's(Q) left child. What happened?
+
 	1. P becomes Q's left child. (Happened)
 	2. B cannot be Q's left child anymore, replaced by P. (B is independent again now)
 	3. P's right child(Q) is gone. (We need the independent B becomes P's right new child.)
