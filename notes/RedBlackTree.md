@@ -18,6 +18,10 @@ A binary search tree is an empty tree or a tree meets the properties as followin
 	- Each node can have up to two successor nodes.
 	- There must be no duplicate nodes.
 
+An example of a Binary Search Tree is shown as following[from WikiPedia](http://en.wikipedia.org/wiki/Binary_search_tree):
+
+![Binary Search Tree Example](../images/Binary_search_tree_Example.png)
+
 ##### 2. The Running Time 
 
 We know that each basic operation on a binary search tree runs in O(h), which h is the height of the tree. So we want to minimize the h. But how? We know the minimum of h should be lg(N), where N is the number of nodes in the tree. One way to meet O(lgN) time is the Randomly building the Binary Search Tree, which is described in [INTRODUCTION TO ALGORITHMS].
