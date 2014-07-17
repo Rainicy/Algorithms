@@ -87,11 +87,11 @@ Now we can see that the Red-Black Tree is a good balanced tree, which can always
 
 There are two different kinds of operations, one will maintain the RBT properties and another one may lead the violation of the properties.
 
-__1. Queries__
+###### 1. Queries
 
 The queries include search, max, min, successor, predecessor etc. All of these operations just look up the node in the RBT, which won't break the tree structure. And all these queries can run in O(lgN) time in the Red-Black Tree.
 
-__2. Updates__
+###### 2. Updates
 
 The updates contain insert and delete, which will lead the violation of the RBT properties. So after updating the nodes in the RBT, we may modify the tree to meet the RBT properties again. 
 
