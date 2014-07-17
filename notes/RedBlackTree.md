@@ -65,7 +65,7 @@ By the definition of the RBT, does the height h meet the balanced search tree he
 The following steps will be the proof of that Red-Black Trees with N keys has height h meets:
 
 $$
-h \leq 2 \lg (N+1) \eq \Omega (\lg N)
+h \leq 2 \lg (N+1) = O (\lg N)
 $$
 
 picture shows the proof of that Red-Black Trees with N keys has height h <= 2lg(N+1) = O(lgN).
